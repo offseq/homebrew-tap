@@ -1,28 +1,28 @@
 class ThreatFinder < Formula
   desc "Runtime vulnerability scanner that flags network-exposed CVEs on a host"
   homepage "https://github.com/offseq/threat-finder"
-  version "0.1.1"
+  version "0.1.2"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/offseq/threat-finder/releases/download/v0.1.1/threat-finder-v0.1.1-aarch64-apple-darwin.tar.gz"
-      sha256 "5b5330190b6a08c58f09f31429c8127dec25eabfeffa5dcf514c1659cedf6b5b"
+      url "https://github.com/offseq/threat-finder/releases/download/v0.1.2/threat-finder-v0.1.2-aarch64-apple-darwin.tar.gz"
+      sha256 "a753a4fe589ffc905d2c5eea7ce17ca968f04dd9f97b6ff8463cda3eafef2cfa"
     end
     on_intel do
-      url "https://github.com/offseq/threat-finder/releases/download/v0.1.1/threat-finder-v0.1.1-x86_64-apple-darwin.tar.gz"
-      sha256 "d8958ef3582bad1d9b3f1bd89385de9ef92357c94d7f589ed6544bd396389aa0"
+      url "https://github.com/offseq/threat-finder/releases/download/v0.1.2/threat-finder-v0.1.2-x86_64-apple-darwin.tar.gz"
+      sha256 "a36c1f217d5e400be04792261c690e8ea8e0149f72f6c6868b4ef44071447b94"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/offseq/threat-finder/releases/download/v0.1.1/threat-finder-v0.1.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "13b9e12ce00039a285c970f9af88d861c3ac4aa96197378c371eaf33516b7153"
+      url "https://github.com/offseq/threat-finder/releases/download/v0.1.2/threat-finder-v0.1.2-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "a102cfac8a30769e9954931359e702a794225cf27abce818846bdf7fb70ef45c"
     end
     on_intel do
-      url "https://github.com/offseq/threat-finder/releases/download/v0.1.1/threat-finder-v0.1.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "b567e42e1654d3dcf63f4181bc3cb796c1ecce48d06bfa990f16b5874b31e3cc"
+      url "https://github.com/offseq/threat-finder/releases/download/v0.1.2/threat-finder-v0.1.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "d1a5b91e26f298e38b12ff29c49e9f48fd56da642816c1dac32dee2e6d453c11"
     end
   end
 
