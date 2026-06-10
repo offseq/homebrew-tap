@@ -1,28 +1,28 @@
 class ThreatFinder < Formula
   desc "Runtime vulnerability scanner that flags network-exposed CVEs on a host"
   homepage "https://github.com/offseq/threat-finder"
-  version "0.1.0"
+  version "0.1.1"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/offseq/threat-finder/releases/download/v0.1.0/threat-finder-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "b62d022cd65360803a3782913bd25a361bc4dc92cd63a46e99a1950b538b6ace"
+      url "https://github.com/offseq/threat-finder/releases/download/v0.1.1/threat-finder-v0.1.1-aarch64-apple-darwin.tar.gz"
+      sha256 "5b5330190b6a08c58f09f31429c8127dec25eabfeffa5dcf514c1659cedf6b5b"
     end
     on_intel do
-      url "https://github.com/offseq/threat-finder/releases/download/v0.1.0/threat-finder-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "718d245f044d4a070d218b431a894cd1a9966af512a5d1835309b649762b734d"
+      url "https://github.com/offseq/threat-finder/releases/download/v0.1.1/threat-finder-v0.1.1-x86_64-apple-darwin.tar.gz"
+      sha256 "d8958ef3582bad1d9b3f1bd89385de9ef92357c94d7f589ed6544bd396389aa0"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/offseq/threat-finder/releases/download/v0.1.0/threat-finder-v0.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "e9729c450d16c24a2d91e99f75cfba6f74fa7307c39ecc8802cb741873ed4104"
+      url "https://github.com/offseq/threat-finder/releases/download/v0.1.1/threat-finder-v0.1.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "13b9e12ce00039a285c970f9af88d861c3ac4aa96197378c371eaf33516b7153"
     end
     on_intel do
-      url "https://github.com/offseq/threat-finder/releases/download/v0.1.0/threat-finder-v0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "7c31274ef1efeba3d14287772ee04df2661faa7c65bbd30f911af6123a56810c"
+      url "https://github.com/offseq/threat-finder/releases/download/v0.1.1/threat-finder-v0.1.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "b567e42e1654d3dcf63f4181bc3cb796c1ecce48d06bfa990f16b5874b31e3cc"
     end
   end
 
